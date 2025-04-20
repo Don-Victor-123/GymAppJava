@@ -1,16 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.mycompany.appgym;
 
-/**
- *
- * @author Harvis
- */
+import com.mycompany.appgym.formularios.Inicio;
 public class AppGym {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
+        
+        Inicio inicio = new Inicio();
+        
+        inicio.show();
     }
 }
